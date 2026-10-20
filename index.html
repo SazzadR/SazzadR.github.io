@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f5f0">
+    <meta name="description" content="The personal portfolio of Sazzad R.">
+    <title>Sazzad R. — Portfolio</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: Georgia, "Times New Roman", serif;
+        background: #f6f5f0;
+        color: #20211e;
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        padding: 28px clamp(22px, 6vw, 80px) 22px;
+      }
+
+      header,
+      footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+      }
+
+      .mark {
+        color: #526b45;
+        font-size: 18px;
+      }
+
+      a {
+        color: inherit;
+        text-decoration-color: #91a582;
+        text-underline-offset: 4px;
+      }
+
+      a:hover {
+        color: #526b45;
+      }
+
+      main {
+        display: grid;
+        align-content: center;
+        justify-items: start;
+        width: min(100%, 900px);
+        margin: 0 auto;
+        padding: 72px 0;
+      }
+
+      .eyebrow {
+        margin: 0 0 22px;
+        color: #526b45;
+        font: 12px Arial, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+      h1 {
+        max-width: 100%;
+        margin: 0;
+        font-size: clamp(58px, 12vw, 144px);
+        font-weight: 400;
+        line-height: 0.92;
+      }
+
+      .intro {
+        margin: 28px 0 0;
+        color: #686a63;
+        font-size: 18px;
+      }
+
+      footer {
+        border-top: 1px solid #d9d9d0;
+        padding-top: 16px;
+        color: #686a63;
+      }
+
+      @media (max-width: 480px) {
+        body {
+          padding-top: 22px;
+        }
+
+        header,
+        footer {
+          font-size: 11px;
+        }
+
+        .intro {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span class="mark" aria-hidden="true">S.</span>
+      <a href="https://github.com/SazzadR">GitHub ↗</a>
+    </header>
+
+    <main>
+      <p class="eyebrow">Portfolio</p>
+      <h1>Sazzad R.</h1>
+      <p class="intro">A little space on the web.</p>
+    </main>
+
+    <footer>
+      <span>Personal site</span>
+      <span>© 2026</span>
+    </footer>
+  </body>
+</html>
